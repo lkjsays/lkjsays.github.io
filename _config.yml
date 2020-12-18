@@ -285,9 +285,9 @@ defaults:
       path: ""      # an empty string here means all files in the project
       type: "pages"
     values:
-      layout: posts
-      author_profile: true
+      layout: archive
+      author_profile: #true
       read_time: false
-      comments: # true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
